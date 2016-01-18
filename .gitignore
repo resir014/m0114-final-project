@@ -3,6 +3,9 @@ node_modules
 .sass-cache
 _site
 
+# Files to ignore
+Gemfile.lock
+
 # =========================
 # Operating System Files
 # =========================
