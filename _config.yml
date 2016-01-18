@@ -3,7 +3,7 @@ permalink:            pretty
 
 # Dependencies
 markdown:             kramdown
-highlighter:          rouge
+highlighter:          pygments
 
 # Setup
 source:               src
