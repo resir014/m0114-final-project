@@ -1,0 +1,43 @@
+# Permalinks
+permalink:            pretty
+
+# Dependencies
+markdown:             kramdown
+highlighter:          rouge
+
+# Setup
+source:               src
+title:                Musical Instrument Store
+url:                  https://resir014.github.io
+baseurl:              "/m0114-final-project"
+exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "bower_components", "package.json", "bower.json"]
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:           _sass
+  style:              :compressed
+
+# Navigational menus
+nav:
+  - title: Home
+    url: /index.html
+  - title: About Us
+    url: /about-us
+  - title: Gallery
+    url: /gallery
+  - title: Outlets
+    url: /outlets
+  - title: Register
+    url: /register
+
+# List of time zones supported in the TZ database
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:             Asia/Jakarta
+
+# About/contact
+author:
+  name:               Resi Respati
+  url:                https://twitter.com/resir014
+  email:              resir014@gmail.com

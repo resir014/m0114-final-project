@@ -1,0 +1,16 @@
+<nav class="masthead masthead-cover">
+  <div class="container">
+    <a class="masthead-title" href="index.html">
+      Musical Instrument Store
+    </a>
+    <ul class="masthead-nav">
+      {% for link in site.nav %}
+        {% if link.title %}
+        {% assign current = '' %}
+        {% if page.url contains link.url %}{% assign current = 'active' %}{% endif %}
+        <li class="{{ current }}"><a href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

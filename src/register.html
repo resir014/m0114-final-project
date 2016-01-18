@@ -1,0 +1,71 @@
+---
+layout: default
+title: Register
+---
+
+<div class="featurette text-center">
+  <h1>Register</h1>
+  <p class="lead">
+    Registering gives you access our store, as well as many other cool stuffs.
+  </p>
+</div>
+
+<form class="form" id="form-register">
+  <div class="form-separator">
+    <label class="form-label" for="name">Name</label>
+    <span class="form-helper-text text-error" id="error-name"></span>
+    <input type="text" name="name" class="form-control" id="input-name" value="">
+
+  </div>
+  <div class="form-separator">
+    <label class="form-label" for="gender">Gender</label>
+    <span class="form-helper-text text-error" id="error-gender"></span>
+    <div class="form-checkbox-control">
+      <label>
+        <input type="radio" name="gender" id="input-gender-male" value="Male"> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" id="input-gender-female" value="Female"> Female
+      </label>
+
+    </div>
+  </div>
+  <div class="form-separator">
+    <label class="form-label" for="username">Username</label>
+    <span class="form-helper-text text-error" id="error-username"></span>
+    <input type="text" name="username" class="form-control" id="input-username" value="">
+  </div>
+  <div class="form-separator">
+    <label class="form-label" for="password">Password</label>
+    <span class="form-helper-text text-error" id="error-password"></span>
+    <input type="password" name="password" class="form-control" id="input-password" value="">
+  </div>
+  <div class="form-separator">
+    <label class="form-label" for="email">Email address</label>
+    <span class="form-helper-text text-error" id="error-email"></span>
+    <input type="text" name="email" class="form-control" id="input-email" value="">
+  </div>
+  <div class="form-separator">
+    <label class="form-label" for="birth-date">Birth date</label>
+    <span class="form-helper-text text-error" id="error-birth-date"></span>
+    <input type="text" name="birth-date" class="form-control" id="input-email" value="">
+  </div>
+  <div class="form-separator">
+    <label class="form-label" for="address">Address</label>
+    <span class="form-helper-text text-error" id="error-address"></span>
+    <textarea name="address" class="form-control" rows="4" id="input-email" value=""></textarea>
+  </div>
+  <div class="form-separator">
+    <label class="form-label" for="phone">Phone</label>
+    <span class="form-helper-text text-error" id="error-phone"></span>
+    <input type="text" name="phone" class="form-control" id="input-email" value="">
+  </div>
+
+  <div class="form-separator">
+    <div class="btn-group form-btn">
+      <input type="button" name="submit" id="btn-submit" class="btn btn-primary" value="Submit">
+      <input type="button" name="reset" id="btn-reset" class="btn" value="Reset">
+    </div>
+    <span class="form-helper-text text-error" id="error-main"></span>
+  </div>
+</form>
