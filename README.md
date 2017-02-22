@@ -37,8 +37,8 @@ Head over to `localhost:4000` to view the site.
 
 ## Project Requirements
 
-[Click here](https://github.com/resir014/m0114-final-project/blob/master/project-requirements.md) to see the project requirements.
+[Click here](project-requirements.md) to view the project requirements.
 
 ## License
 
-[MIT.](https://github.com/resir014/m0114-final-project/blob/master/LICENSE)
+[MIT.](LICENSE)
