@@ -41,4 +41,4 @@ Head over to `localhost:4000` to view the site.
 
 ## License
 
-[MIT.](LICENSE)
+[Unlicense.](LICENSE)
